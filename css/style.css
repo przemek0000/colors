@@ -1,0 +1,75 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main {
+    padding: 10px 0 10px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 2px auto 2px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #000;
+    line-height: 1.7;
+}
+
+.header {
+    text-align: center;
+    padding-top: 16px;
+}
+
+.tableContainer {
+    overflow-x: auto;
+}
+
+.uList {
+    list-style: square;
+}
+
+.iList {
+    padding: 10px;
+}
+
+.colorCircle {
+
+    width: 80%;
+}
+
+.circleCell {
+
+    text-align: center;
+}
+
+.tableColors {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    max-width: 80%;
+}
+
+.footer {
+    max-width: 1000px;
+    background-color: rgb(212, 212, 212);
+    padding: 0 15px;
+    text-align: center;
+    margin: 0 auto 10px;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.goBack {
+    float: right;
+}

@@ -1,0 +1,50 @@
+.section__imageWave {
+    float: right;
+    width: 400px;
+
+}
+
+.section__imageResize {
+    width: 100%;
+}
+
+.section__imageWave:hover {
+    cursor: pointer;
+}
+
+.section__table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+
+.section__tableCell {
+    text-align: center;
+    padding: 10px 5px;
+    border: 1px solid black;
+}
+
+.section__tableV:hover {
+    background-color: violet;
+}
+
+.section__tableB:hover {
+    background-color: rgb(106, 106, 255);
+}
+
+.section__tableG:hover {
+    background-color: rgb(0, 190, 0);
+}
+
+.section__tableY:hover {
+    background-color: yellow;
+}
+
+.section__tableO:hover {
+    background-color: orange;
+}
+
+.section__tableR:hover {
+    background-color: rgb(255, 17, 17);
+}

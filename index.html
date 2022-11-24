@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 3</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <script defer src="js/scripts.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,600;1,300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="body">
+    <div class="container js-container">
+        <header>
+            <h1 class="header" id="header">Jak ważne są kolory</h1>
+        </header>
+        <nav class="navigation">
+            <ul>
+                <li class="navigation__list"><b><span>Skocz do:</span></b></li>
+                <li class="navigation__list"> <a href="#science" class="navigation__link" title="Troche nauki">Co nauka nam mówi</a></li>
+                <li class="navigation__list"> <a href="#light" class="navigation__link" title="Barwy tęczy">Światło widzialne</a></li>
+                <li class="navigation__list"> <a href="#combined" class="navigation__link" title="Wpływ kolorów na człowieka">Jak łączyć kolory</a></li>
+                <li class="navigation__list"> <a href="#footer" class="navigation__link" title="Stopka">Stopka</a></li>
+                <button class="navigation__button js-navigation__button"><span class="js-navigation__whiteDark">Włącz</span> gradient</button>
+            </ul>
+        </nav>
+        <main class="main">
+            <section id="science">
+                <h2>Co nauka nam mówi</h2>
+                <hr>
+                <p>
+                    <img src="images/spektrum-modified2.png" alt="Spektrum światła" class="section__imageWave js-section__imageWave"
+                        title="Kliknij by zmienić rozmiar">
+                    Światło rozchodzi się w próżni ze stałą prędkością <b>299 792 458 m/s</b>. Jest to iloczyn
+                    <i>długości
+                        fali</i> i <i>częstotliwości</i>. Długość fali jest odwrotnie proporcjonalna do częstotliwości,
+                    kiedy jedna
+                    rośnie to druga musi spadać. W tym artykule skupimy się na świetle widzianym przez ludzkie oko,
+                    czyli tak zwanym - <em>"spektrum światła widzialnego"</em>. Mieści się ono w przedziale od 380 nm do
+                    750 nm. Odpowiada to zakresowi częstotliwości od 3,8·10^14 - 7,9·10^14 Hz.
+                </p>
+            </section>
+            <section id="light">
+                <h2>Światło widzialne</h2>
+                <hr>
+                <p>
+                    Na widmo światła widzialnego składają się kolory widziane przez ludzkie oko, są to: <b>fioletowy,
+                        niebieski, zielony, żółty, pomarańczowy, czerwony</b> oraz ich odcienie czystych i nasyconych
+                    kolorów.
+                    Poniższa tabela przedstawia ich podział.
+                </p>
+                <div class="tableContainer">
+                    <table class="section__table">
+                        <caption>Kolory</caption>
+                        <tr>
+                            <th scope="col" class="section__tableCell">Kolor</th>
+                            <th scope="col" class="section__tableCell">Długość fali [nm]</th>
+                            <th scope="col" class="section__tableCell">Częstotliwość [THz]</th>
+                        </tr>
+                        <tr class="section__tableV">
+                            <td class="section__tableCell">Fioletowy</td>
+                            <td class="section__tableCell">~380-430</td>
+                            <td class="section__tableCell">~790-700</td>
+                        </tr>
+                        <tr class="section__tableB">
+                            <td class="section__tableCell">Niebieski</td>
+                            <td class="section__tableCell">~450-500</td>
+                            <td class="section__tableCell">~670-600</td>
+                        </tr>
+                        <tr class="section__tableG">
+                            <td class="section__tableCell">Zielony</td>
+                            <td class="section__tableCell">~5200-565</td>
+                            <td class="section__tableCell">~580-530</td>
+                        </tr>
+                        <tr class="section__tableY">
+                            <td class="section__tableCell">Żółty</td>
+                            <td class="section__tableCell">~565-590</td>
+                            <td class="section__tableCell">~530-510</td>
+                        </tr>
+                        <tr class="section__tableO">
+                            <td class="section__tableCell">Pomarańczowy</td>
+                            <td class="section__tableCell">~590-635</td>
+                            <td class="section__tableCell">~510-480</td>
+                        </tr>
+                        <tr class="section__tableR">
+                            <td class="section__tableCell">Czerwony</td>
+                            <td class="section__tableCell">~635-770</td>
+                            <td class="section__tableCell">~480-405</td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+            <section id="combined">
+                <h2>Jak łączyć kolory</h2>
+                <hr>
+                <ul class="unavigation__list">
+                    <li class="inavigation__list">Kolor czerwony dodaje motywacji i pobudza do działania</li>
+                    <li class="inavigation__list">Pomarańczowy i żółty przywołuje jesienną aure </li>
+                    <li class="inavigation__list">Odcień zielonego i niebieskiego wpływa kojąco na oczy i umysł</li>
+                    <li class="inavigation__list">Kolor biały jest kolorem czystym. W pomieszczenia iluzjonistycznie powiększa je
+                    </li>
+                </ul>
+                <p>
+                    By móc najlepiej połączyć ze sobą kolory wykorzystamy do tego koło barw.
+                </p>
+                <table class="tableColors">
+                    <tr>
+                        <td class="circleCell"><img src="images/kolory-monochromatyczne-kolo-barw.png" alt="Koło barw"
+                                class="colorCircle"></td>
+                        <td class="circleCell"><b>Schemat monochromatyczny</b></td>
+                        <td class="circleCell">Kolory znajdują się w jednej linii od środka do krawędzi koła</td>
+                    </tr>
+                    <tr>
+                        <td class="circleCell"><img src="images/kolory-dopelniajace-kolo-barw.png" alt="Koło barw"
+                                class="colorCircle"></td>
+                        <td class="circleCell"><b>Schemat dopełniający</b></td>
+                        <td class="circleCell">Kolory znajdują się na wprost siebie na kole barw</td>
+                    </tr>
+                    <tr>
+                        <td class="circleCell"><img src="images/kolory-harmonijne-kolo-barw.png" alt="Koło barw"
+                                class="colorCircle"></td>
+                        <td class="circleCell"><b>Schemat harmonijny</b></td>
+                        <td class="circleCell">kolory znajdują się obok siebie na kole barw</td>
+                    </tr>
+                </table>
+                <a href="#header" class="goBack" title="Powrót do menu"> ⬆</a>
+            </section>
+
+        </main>
+    </div>
+    <footer class="footer" id="footer">
+        <p><em>© Copyright 2022 by respective owner - wszystkie prawa zastrzeżone </em></p>
+    </footer>
+</body>
+
+</html>
