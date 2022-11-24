@@ -4,4 +4,4 @@
 
 ![Round colors](https://github.com/przemek0000/Module-3/blob/main/images/kolory-monochromatyczne-kolo-barw.png)
 
-![roundColors](https://github.com/przemek0000/Module-3/blob/main/images/kolory-monochromatyczne-kolo-barw.png?raw=true
+![roundColors](https://github.com/przemek0000/Module-3/blob/main/images/kolory-monochromatyczne-kolo-barw.png?raw=true)
