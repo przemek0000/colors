@@ -1,7 +1,7 @@
-let button = document.querySelector(".js-navigation__button");
-let whiteDark = document.querySelector(".js-navigation__whiteDark");
+let button = document.querySelector(".js-button");
+let whiteDark = document.querySelector(".js-whiteDark");
 let container = document.querySelector(".js-container");
-let imageWave = document.querySelector(".js-section__imageWave");
+let imageWave = document.querySelector(".js-imageWave");
 let imageResize = document.querySelector(".section__imageResize");
 
 button.addEventListener("click", () => {
