@@ -50,6 +50,7 @@ html {
 .circleCell {
 
     text-align: center;
+    min-width: 200px;
 }
 
 .tableColors {

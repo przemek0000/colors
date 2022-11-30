@@ -1,5 +1,4 @@
 .navigation {
-
     padding: 10px 0 10px;
 }
 
@@ -26,6 +25,7 @@
     outline: 2px dotted black;
     border: none;
 }
+
 .navigation__opositeTheme {
     background-image: linear-gradient(to bottom,
             rgba(255, 0, 0, 0.90),

@@ -9,5 +9,5 @@ button.addEventListener("click", () => {
 });
 
 imageWave.addEventListener("click", () => {
-    imageWave.classList.toggle("section__imageResize")
+    imageWave.classList.toggle("science__imageResize")
 });

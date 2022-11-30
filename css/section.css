@@ -1,13 +1,13 @@
-.section__imageWave {
+.science__imageWave {
     float: right;
     width: 350px;
 }
 
-.section__imageResize {
+.science__imageResize {
     width: 100%;
 }
 
-.section__imageWave:hover {
+.science__imageWave:hover {
     cursor: pointer;
 }
 
