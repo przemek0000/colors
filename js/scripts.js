@@ -6,14 +6,14 @@
         whiteDark.innerText = container.classList.contains("navigation__opositeTheme") ? "Wyłącz" : "Włącz";
     };
 
-    const onChangeImageResizeClick = () => {
-        imageWave.classList.toggle("science__imageResize");
-    };
     const init = () => {
+        const imageWave = document.querySelector(".js-imageWave");
         const button = document.querySelector(".js-button");
-        imageWave.addEventListener("click", onChangeImageResizeClick);
+        imageWave.addEventListener("click", () => {
+            imageWave.classList.toggle("science__imageResize");
+        });
         button.addEventListener("click", onChangeBackgroundClick);
     };
-    const imageWave = document.querySelector(".js-imageWave");
+    
     init();
 };
