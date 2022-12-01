@@ -7,3 +7,12 @@ or
 [Combine colors](https://przemek0000.github.io/Module-5a/)
 
 ![colors](/video/colorsHalf.gif)
+
+## Used technologies:
+
+- HTML
+- CSS
+- CSS NORMALIZE
+- JAVASCRIPT
+- BEM 
+- ES6+ FEATURE
