@@ -6,14 +6,19 @@
         whiteDark.innerText = container.classList.contains("navigation__opositeTheme") ? "Wyłącz" : "Włącz";
     };
 
+    const onImageWaveClick = (imageWave) => {
+        imageWave.classList.toggle("science__imageResize");
+    };
+
     const init = () => {
         const imageWave = document.querySelector(".js-imageWave");
         const button = document.querySelector(".js-button");
         imageWave.addEventListener("click", () => {
-            imageWave.classList.toggle("science__imageResize");
+            onImageWaveClick(imageWave);
         });
+
         button.addEventListener("click", onChangeBackgroundClick);
     };
-    
+
     init();
 };

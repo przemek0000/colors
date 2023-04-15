@@ -2,9 +2,9 @@
 ## Page telling us a little about theory, property of light and how to combine colors.
 
 
-Website: https://przemek0000.github.io/Module-5a/
+Website: https://przemek0000.github.io/colors/
 or
-[Combine colors](https://przemek0000.github.io/Module-5a/)
+[Combine colors](https://przemek0000.github.io/colors/)
 
 ![colors](/video/colorsHalf.gif)
 
